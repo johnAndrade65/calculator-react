@@ -1,7 +1,7 @@
 # Modern Calculate
 <h5>EN - Calculator created using React(HTML, CSS and Javascript).</h5>
 <h5>PT - Calculadora criada usando React(HTML, CSS e Javascript)</h5>
-<img src="./assets/images/readme.png" alt="Screen Capture">
+<img src="./public/readme.png" alt="Screen Capture">
 <h4>Deploy: Next version, will be commented with public deploy! hold up!</h4>
 ﻿<div style="display: inline_block"><br/>
   <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
