@@ -1,15 +1,18 @@
+//IMPORTS
 import React, { useState } from 'react'
 import '../styles/Calculator.css'
 import Container from '@mui/material/Container';
 import { Box } from '@mui/material';
 
-
+//EXPORT FUNCTION WITH COMPONENT CALCULATOR TO APP.JS
 export default function Calculator() {
 
+  //USESTATES
   const[num,setNum]=useState(0);
   const[oldNum,setOldNum]=useState(0);
   const[operator,setOperator]=useState();
   
+  //FUNCTION INPUTNUM
   function inputNum(e){
     var input = e.target.value;
     if(num===0){
@@ -19,12 +22,15 @@ export default function Calculator() {
     }
   }
 
+  //FUNCTION CLEAR NUM OF THE CALCULATOR
   function clear(e){
     setNum(0)
   }
+  //PORCENTAGE = NUM(VAR) / 100
   function porcentage(){
     setNum(num / 100)
   }
+  //CHANGE SIGN OF THE RESULT VARIABLE
   function changeSign(){
     if(num>0){
       setNum(-num)
@@ -33,13 +39,14 @@ export default function Calculator() {
     }
   }
 
-
+  //FUNCTIONS TO UPDATE OPERATOR + OLD NUMBER + NUMBER
   function operatorHandler(e){
     var operatorInput = e.target.value
     setOperator(operatorInput)
     setOldNum(num)
     setNum(0)
   }
+  //WILL VERIFY THE OPERATOR AND MAKE THE MATHEMATICAL OPERATION ACCORDING TO THE SELECTED OPERATOR
   function calculate(){
     if(operator==='/'){
       setNum(parseFloat(oldNum) / parseFloat(num))
@@ -55,6 +62,7 @@ export default function Calculator() {
     }
   }
 
+  //WILL RETURN THE CALCULATOR ELEMENT TO App.js
   return (
   <Box m={5}>
     <Container maxWidth="xs">

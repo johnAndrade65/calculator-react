@@ -1,3 +1,4 @@
+/*BUTTON*/
 button{
     width: 3em;
     height: 3em;
@@ -9,19 +10,23 @@ button{
 button:hover{
     cursor: pointer;
 }
+/*CONTAINER*/
 .wrapper{
     background-color: black;
     border-radius: 1em;
     padding: 1em;
 }
+/*ORANGE BUTTONS*/
 .orange{
     background-color: #ff9500;
     color: #FFFFFF;
 }
+/*GRAYS BUTTONS*/
 .gray{
     background-color: #505050;
     color: #FFF;
 }
+/*RESULT VARIABLE*/
 .result{
     color: #FFFFFF;
     display: flex;
@@ -29,6 +34,7 @@ button:hover{
     margin-right: 1em;
     font-size: 3.5em;
 }
+/*RESULT BUTTON*/
 #result{
     width: 6.4em;
     height: 2.65em;
