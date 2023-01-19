@@ -1,3 +1,15 @@
+*{
+    transform: scale(98%);
+}
+
+/*CONTAINER*/
+.wrapper{
+    background-color: black;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 1em;
+    padding: 1em;
+}
 /*BUTTON*/
 button{
     width: 3em;
@@ -10,15 +22,9 @@ button{
 button:hover{
     cursor: pointer;
 }
-/*CONTAINER*/
-.wrapper{
-    background-color: black;
-    border-radius: 1em;
-    padding: 1em;
-}
 /*ORANGE BUTTONS*/
-.orange{
-    background-color: #ff9500;
+.blue{
+    background-color: #008cff;
     color: #FFFFFF;
 }
 /*GRAYS BUTTONS*/

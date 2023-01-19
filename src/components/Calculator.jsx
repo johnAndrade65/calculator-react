@@ -65,7 +65,7 @@ export default function Calculator() {
   //WILL RETURN THE CALCULATOR ELEMENT TO App.js
   return (
   <Box m={5}>
-    <Container maxWidth="xs">
+    <Container maxWidth="xl">
       <div className='wrapper'>
        <Box m={12}/>
         <h1 className='result'>{num}</h1>
@@ -73,25 +73,25 @@ export default function Calculator() {
         <button onClick={clear}>AC</button>
         <button onClick={changeSign}>+/-</button>
         <button onClick={porcentage}>%</button>
-        <button className='orange' onClick={operatorHandler} value="/">/</button>
+        <button className='blue' onClick={operatorHandler} value="/">/</button>
         <button className='gray' onClick={inputNum} value={7}>7</button>
         <button className='gray' onClick={inputNum} value={8}>8</button>
         <button className='gray' onClick={inputNum} value={9}>9</button>
-        <button className='orange' onClick={operatorHandler} value="*">X</button>
+        <button className='blue' onClick={operatorHandler} value="*">X</button>
         <button className='gray' onClick={inputNum} value={4}>4</button>
         <button className='gray' onClick={inputNum} value={5}>5</button>
         <button className='gray' onClick={inputNum} value={6}>6</button>
-        <button className='orange' onClick={operatorHandler} value="-">-</button>
+        <button className='blue' onClick={operatorHandler} value="-">-</button>
 
         <button className='gray' onClick={inputNum} value={1}>1</button>
         <button className='gray' onClick={inputNum} value={2}>2</button>
         <button className='gray' onClick={inputNum} value={3}>3</button>
-        <button className='orange' onClick={operatorHandler} value="+">+</button>
+        <button className='blue' onClick={operatorHandler} value="+">+</button>
 
         <button className='gray' onClick={inputNum} value={0}>0</button>
         <button className='gray' onClick={inputNum} value={"."}>.</button>
         
-        <button className='orange' id='result' onClick={calculate}>=</button>
+        <button className='blue' id='result' onClick={calculate}>=</button>
       </div>
     </Container>
   </Box>
