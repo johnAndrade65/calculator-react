@@ -1,6 +1,6 @@
 { 
   "homepage" : "https://johnAndrade65/github.io/calculate-react",
-  "name": "calculadora-react",
+  "name": "calculate-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
