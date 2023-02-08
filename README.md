@@ -2,7 +2,7 @@
 <h5>EN - Calculator created using React(HTML, CSS and Javascript).</h5>
 <h5>PT - Calculadora criada usando React(HTML, CSS e Javascript)</h5>
 <img src="./public/readme.png" alt="Screen Capture">
-<h4>Deploy: https://johnandrade65.github.io/calculate-react/</h4>
+<h4>Deploy: https://johnandrade65.github.io/calculator-react/</h4>
 Abra usando o internet explorer para uma experiência melhor!.
 ﻿<div style="display: inline_block"><br/>
   <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
