@@ -1,4 +1,4 @@
-# Modern Calculate
+# Modern Calculator
 <h5>EN - Calculator created using React(HTML, CSS and Javascript).</h5>
 <h5>PT - Calculadora criada usando React(HTML, CSS e Javascript)</h5>
 <img src="./public/readme.png" alt="Screen Capture">
